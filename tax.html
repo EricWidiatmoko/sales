@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tax Table</title>
+<style>
+    /* CSS untuk tabel */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid #ddd;
+    }
+
+    th, td {
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    /* CSS untuk input yang dapat diedit */
+    input[type="text"] {
+        width: 100%;
+        border: none;
+        background-color: transparent;
+    }
+</style>
+</head>
+<body>
+
+<h2>Tax Table</h2>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Rate</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Tax A</td>
+    <td><input type="text" value="5%"></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Tax B</td>
+    <td><input type="text" value="10%"></td>
+  </tr>
+  <!-- Add more rows as needed -->
+</table>
+
+</body>
+</html>
